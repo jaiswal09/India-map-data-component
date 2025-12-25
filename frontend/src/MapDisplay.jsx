@@ -25,9 +25,9 @@ const MapDisplay = ({ activeState, onHover }) => {
 
     useEffect(() => {
         const fetchGeoJSON = async () => {
-            let url = 'http://localhost:5001/api/map/india';
+            let url = 'https://india-maps-backend.onrender.com/api/map/india';
             if (activeState) {
-                url = `http://localhost:5001/api/map/state/${activeState.slug}`;
+                url = `https://india-maps-backend.onrender.com/api/map/state/${activeState.slug}`;
             }
 
             try {
