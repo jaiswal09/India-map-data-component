@@ -17,7 +17,8 @@ function App() {
 
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:5001/api/state-details/${hoveredState.slug}`);
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+        const response = await axios.get(`${apiUrl}/api/state-details/${hoveredState.slug}`);
         if (active) {
           setDetails(response.data);
           setLoading(false);
