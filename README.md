@@ -1,6 +1,8 @@
 # India Maps Data Project
 
 This project creates an interactive India map with state-specific details. It consists of a React frontend and an Express backend.
+<img width="1470" height="956" alt="Screenshot 2025-12-25 at 6 10 22 PM" src="https://github.com/user-attachments/assets/706befab-1f63-4a0e-8ddb-c5e17903e062" />
+
 
 ## Project Structure
 
